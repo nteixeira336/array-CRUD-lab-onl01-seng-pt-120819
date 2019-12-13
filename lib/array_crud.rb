@@ -39,5 +39,7 @@ countries [0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  countries= ["italy", "japan", "usa", "russia"]
+countries<< "arrays!" 
+countries [-1]
 end
