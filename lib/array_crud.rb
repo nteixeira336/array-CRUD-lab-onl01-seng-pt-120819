@@ -23,7 +23,9 @@ countries<< "arrays!"
 end
 
 def remove_element_from_start_of_array(array)
-  
+ countries= ["italy", "japan", "usa", "russia"]
+countries.unshift "wow"
+countries.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
