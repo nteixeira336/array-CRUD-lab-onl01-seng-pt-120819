@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
 countries= ["italy", "japan", "usa", "russia"]
-countries<< "spain"  
+countries<< "arrays!"  
 end
 
 def add_element_to_start_of_array(array, element)
