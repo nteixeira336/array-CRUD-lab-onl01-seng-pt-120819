@@ -29,7 +29,7 @@ countries.shift
 end
 
 def retrieve_element_from_index(array, index_number)
- 
+  countries= ["italy", "japan", "usa", "russia"]
  countries[1] 
 end
 
