@@ -12,7 +12,8 @@ countries<< "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+countries= ["italy", "japan", "usa", "russia"]
+countries.unshift "wow"
 end
 
 def remove_element_from_end_of_array(array)
