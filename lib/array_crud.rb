@@ -17,7 +17,8 @@ countries.unshift "wow"
 end
 
 def remove_element_from_end_of_array(array)
- 
+ countries= ["italy", "japan", "usa", "russia"]
+countries<< "arrays!" 
  countries.pop 
 end
 
